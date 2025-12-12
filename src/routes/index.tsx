@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import ArrowAutoSlideButton from '@/components/ArrowAutoSlideButton'
+import Counter from '@/components/Counter'
 
 export const Route = createFileRoute('/')({
   component: App,
@@ -8,7 +9,8 @@ export const Route = createFileRoute('/')({
 function App() {
   return (
     <div className="text-center flex h-screen items-center justify-center">
-      <ArrowAutoSlideButton/>
+      {/* <ArrowAutoSlideButton/> */}
+      <Counter/>
     </div>
   )
 }
